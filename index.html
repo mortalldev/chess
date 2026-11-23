@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Debyut Ustasi</title>
+  <meta name="description" content="Shaxmat debyutlarini statistika, qo'llanmalar, mashq va masalalar orqali o'rganing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style id="piece-css"></style>
+</head>
+<body>
+  <div id="app">
+    <aside class="nav">
+      <div class="brand">
+        <div class="brand-logo"><img id="brand-img" alt=""></div>
+        <div>
+          <div class="brand-name">Debyut Ustasi</div>
+          <div class="brand-sub">Shaxmat debyutlari maktabi</div>
+        </div>
+      </div>
+      <div id="nav-items"></div>
+      <div class="nav-sep"></div>
+      <button class="nav-btn" id="btn-settings"></button>
+      <div class="nav-foot"></div>
+    </aside>
+
+    <main>
+      <section class="view" id="view-home"></section>
+      <section class="view" id="view-lesson">
+        <div class="play-wrap">
+          <div class="board-col">
+            <div class="board-top"><div class="op-title" id="ls-title"></div></div>
+            <div id="lboard"></div>
+            <div class="board-controls" id="ls-controls"></div>
+          </div>
+          <div class="panel" id="ls-panel"></div>
+        </div>
+      </section>
+      <section class="view" id="view-play">
+        <div class="play-wrap">
+          <div class="board-col">
+            <div class="board-top">
+              <div class="op-title" id="board-title"></div>
+              <div id="board-top-right"></div>
+            </div>
+            <div id="board"></div>
+            <div class="board-controls" id="board-controls"></div>
+          </div>
+          <div class="panel" id="panel"></div>
+        </div>
+      </section>
+      <section class="view" id="view-library"></section>
+      <section class="view" id="view-guide"></section>
+    </main>
+
+    <nav class="tabbar" id="tabbar"></nav>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast"></div>
+
+  <script src="assets/js/chess.js" defer></script>
+  <script src="assets/js/pieces.js" defer></script>
+  <script src="assets/js/eco.js" defer></script>
+  <script src="assets/js/book.js" defer></script>
+  <script src="assets/js/courses.js" defer></script>
+  <script src="assets/js/puzzles.js" defer></script>
+  <script src="assets/js/sounds.js" defer></script>
+  <script src="assets/js/board.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
